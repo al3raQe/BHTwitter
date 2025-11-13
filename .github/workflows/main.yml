@@ -69,7 +69,7 @@ jobs:
         id: download_BHTwitter
         run: |
           # Direct .deb release asset URL (hardcoded). Update version if you release a new one.
-          deb_url="https://github.com/al3raQe/BHTwitter/releases/download/BHTwitter/com.bandarhl.bhtwitter_4.4-1+debug_iphoneos-arm64.deb"
+          deb_url="https://github.com/al3raQe/BHTwitter/releases/download/BHTwitter-Plus_4.4.1_By_al3raQe/com.bandarhl.bhtwitter_4.4-1+debug_iphoneos-arm64.deb"
           echo "Downloading: $deb_url"
           wget "$deb_url" --no-verbose -O "${{ github.workspace }}/BHTwitter.deb"
 
